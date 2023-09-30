@@ -9,6 +9,9 @@ This kaggle dataset includes several months (and counting) of data on daily tren
 ### Architecture
 ![Architecture Diagram](https://github.com/vponkia/youtube-data-pipeline/blob/main/you-tube%20data%20engineering%20.png)
 
+### ETL Job
+![Job structure](https://github.com/vponkia/youtube-data-pipeline/blob/main/job.png)
+
 ### Services Used
 
 1. **Amazon S3(Simple Storage Service)**: Amazon S3 is an object storage service that provides manufacturing scalability, data availability, security, and performance.
