@@ -27,7 +27,7 @@ This kaggle dataset includes several months (and counting) of data on daily tren
 aws s3 cp . s3://de-on-youtube-raw-ca-central-1/youtube/raw_statistics_reference_data/ --recursive --exclude "*" --include "*.json"
 ```
 
-#### # To copy all data files(CSV) to S3 location, following Hive-style patterns:
+#### To copy all data files(CSV) to S3 location, following Hive-style patterns:
 
 ```
 aws s3 cp CAvideos.csv s3://de-on-youtube-raw-ca-central-1/youtube/raw_statistics/region=ca/
